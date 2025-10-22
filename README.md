@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey?logo=creativecommons)
 ![Org-Nexicore](https://img.shields.io/badge/Org-Nexicore_Digitals-6A1B9A)
 ![Ecosystem-Nexus](https://img.shields.io/badge/Ecosystem-Nexus_Hub-1976D2)
-![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+[![CI Status](https://github.com/nexicore-digitals/nexus-hub-doc/actions/workflows/ci.yml/badge.svg)](https://github.com/nexicore-digitals/nexus-hub-doc/actions/workflows/ci.yml)
 
 **Nexus Hub Doc** is the living documentation surface for the Nexus ecosystem—covering governance, Echo logic, alliance mechanics, plugin attribution, duel protocols, and contributor roles. It is not a starter kit. It is a cognitive reference space for developers, reviewers, and architects building within the Nexus framework.
 
