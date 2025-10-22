@@ -4,7 +4,7 @@
   "version": "0.1.0",
   "type": "module",
   "description": "Nexus Hub Doc is the living documentation surface for the Nexus ecosystem—covering governance, Echo logic, alliance mechanics, plugin attribution, duel protocols, and contributor roles. It is not a starter kit. It is a cognitive reference space for developers, reviewers, and architects building within the Nexus framework.",
-  "author": "Owen . Nexicore Digitals",
+  "author": "Owen • Nexicore digitals",
   "license": "CC BY-NC-SA 4.0",
   "repository": {
     "type": "git",
@@ -93,7 +93,10 @@
     "preview": "vite preview",
     "format": "prettier --write \"src/**/*.{ts,tsx,json,md}\"",
     "check": "tsc --noEmit",
-    "check:deps": "pnpm exec depcheck"
+    "check:deps": "pnpm exec depcheck",
+    "prepare": "husky",
+    "precommit": "pnpm check && pnpm format && pnpm lint",
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.15",
@@ -112,6 +115,7 @@
     "eslint-plugin-react-hooks": "^5.2.0",
     "eslint-plugin-react-refresh": "^0.4.22",
     "globals": "^16.4.0",
+    "husky": "^9.1.7",
     "prettier": "^3.6.2",
     "typescript": "~5.9.3",
     "typescript-eslint": "^8.45.0",
